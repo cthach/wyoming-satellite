@@ -12,4 +12,6 @@ python3 script/run \
   --uri 'tcp://0.0.0.0:10700' \
   --mic-command 'arecord -r 16000 -c 1 -f S16_LE -t raw' \
   --snd-command 'aplay -r 22050 -c 1 -f S16_LE -t raw' \
+  --awake-wav 'sounds/awake.wav' \
+  --done-wav 'sounds/done.wav' \
   --debug
