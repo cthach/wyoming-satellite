@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/home/pi/wyoming-satellite/run.sh
+ExecStart=/home/pi/wyoming-satellite/pi/run.sh
 Restart=on-failure
 RestartSec=5
 User=pi
