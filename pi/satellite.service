@@ -1,0 +1,13 @@
+[Unit]
+Description=Wyoming Satellite Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/pi/wyoming-satellite/run.sh
+Restart=on-failure
+RestartSec=5
+User=pi
+
+[Install]
+WantedBy=multi-user.target
